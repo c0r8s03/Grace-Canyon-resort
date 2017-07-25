@@ -30,7 +30,7 @@ body {
 
 .events {
         font: bolder 5em 'Raleway:500', sans-serif;
-            color: #fff;
+    color: #fff;
     text-align: center;
     display: inline-flex;
     justify-content: flex-start;
@@ -125,12 +125,12 @@ span {
 
 
 .carousel-caption {
-    font: bolder 1.5em 'Raleway:500', sans-serif;
+    font: bolder 1.8em 'Raleway:500', sans-serif;
     color: #DA7635;
     text-align: center;
     display: inline-flex;
     align-content: center;
-    align-items: center;
+    align-items: flex-start;
     flex-flow: row;
     padding: 0;
 }
@@ -345,7 +345,7 @@ ul.footer-menu > li {
 h1.section-header {
     font: bolder 1.5em 'Raleway:500', sans-serif;
     border-radius: 50px;
-    width: 100%;
+    width: 1050px;
     border-left: none;
     font-style: italic;
     
@@ -399,7 +399,7 @@ h1.section-header {
      
   }
 
-  
+
 .row {
     display:flex;
     flex-wrap:wrap;
@@ -410,10 +410,8 @@ h1.section-header {
 }
 .menu-header {
     
-    font-size:25px;
     color:red;
     text-decoration: underline;
-    font-weight: bold;
     font: bolder 1.4em 'Raleway Sans:500', sans-serif;
     text-align: center;
     
