@@ -2,8 +2,8 @@
  
   $(function(){
     
-    var myimg = "<img src='images/caribeanmenu.jpg'>";
-    var myimg1 = "<img src='images/frenchmenu.jpg'>";
+    var myimg1 = "<img src='images/samplermenu.jpg'>";
+    var myimg = "<img src='images/frenchmenu.jpg'>";
     
     // $('.icon').popover({placement:'top'},{html:'true', content:myimg1});
       $('.icon').popover({content:myimg1, html:'true', placement:'left'}); 
