@@ -9,6 +9,14 @@ body {
     margin: auto;
 }
 
+
+.homepage {
+    font: bolder 5em 'Lobster', serif;
+   color: #083D77;
+  text-shadow: 4px 3px 0px #fff, 9px 8px 0px rgba(0,0,0,0.15);
+}
+
+
 h1 {
     text-align: center;
     font: bolder 2em 'Raleway:500', sans-serif;

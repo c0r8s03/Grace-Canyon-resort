@@ -1,4 +1,4 @@
-
+$(document).ready(function(){
  
   $(function(){
     
@@ -40,7 +40,7 @@ $('#myModal').on('shown.bs.modal', function () {
 */
 
 
-
+}) ;
 
 
 
