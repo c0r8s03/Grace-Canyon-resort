@@ -248,7 +248,7 @@ navbar-default navbar-fixed {
 
 .jumbotron-intro {
    height: 600px;
-   width: 1200px;
+   width: 100%;
     background-size: cover;
     background-position: center center;
     color: #FD3E81;

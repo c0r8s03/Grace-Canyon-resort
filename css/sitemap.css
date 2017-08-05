@@ -9,15 +9,34 @@ body {
     margin: auto;
 }
 
-h1 {
+.homepage {
     text-align: center;
-    font: bolder 2em 'Raleway:500', sans-serif;
-    padding-top: 25px;
+     font: bolder 5em 'Lobster', serif;
+   color: #083D77;
+  text-shadow: 4px 3px 0px #fff, 9px 8px 0px rgba(0,0,0,0.15);
 }
 
+ul {
+ list-style: square;
+}
+
+li  {
+    
+    font: normal 2rem 'Raleway 500', sans-serif;
+    color: #108F96;
+    padding-top: 50px;
+}
+    
 h3 {
     font-weight: bold;
     padding: 0;
   
 }
 
+a.homepage {
+    
+    font: bolder 5em 'Lobster', serif;
+   color: #083D77;
+  text-shadow: 4px 3px 0px #fff, 9px 8px 0px rgba(0,0,0,0.15);
+  
+}
