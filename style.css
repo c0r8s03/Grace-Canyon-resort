@@ -1,0 +1,442 @@
+@import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0-rc2/css/bootstrap-glyphicons.css");
+
+html {
+    box-sizing: border-box;
+    height: 100%;
+}
+
+body {
+    margin: auto;
+    font-family: 'Raleway:500', sans-serif;
+    padding-bottom: 70px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.intro {
+    font: bolder 5em 'Raleway:500', sans-serif;
+    color: #fff;
+    text-align: center;
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-end;
+    flex-flow: column wrap;
+    line-height: 1;
+    text-shadow: 4px 3px 0px #fd3e81, 9px 8px 0px rgba(0,0,0,0.15);
+    }
+
+.events {
+        font: bolder 5em 'Raleway:500', sans-serif;
+    color: #fff;
+    text-align: center;
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-end;
+    flex-flow: column wrap;
+    line-height: 1;
+    text-shadow: 4px 3px 0px #fd3e81, 9px 8px 0px rgba(0,0,0,0.15);
+    }
+
+    .intro > small {
+     font: bolder 2.5rem 'Raleway:500', sans-serif; 
+     color: #fff;
+     align-self: flex-start;
+     
+    }
+    
+   .pitch {
+    font: italic 1.5em 'Open Sans:600', sans-serif;
+    font-weight: bolder;
+    align-self: flex-end;
+    order: 3;
+    color: #EDFBFA;
+    flex-shrink: 1;
+    width: 500px;
+    text-shadow: 4px 3px 0px #FB8B24, 9px 8px 0px rgba(0,0,0,0.15);
+    }
+
+#gallery {
+    text-decoration: none;
+    page-break-before: always;
+    page-break-after: always;
+}
+
+.events > small {
+    font: bolder 2rem 'Raleway:500', sans-serif; 
+     color: #fff;
+     align-self: flex-end;
+     text-decoration: none;
+     text-shadow: 1px 1px 0px #fd3e81, 2px 2px 0px rgba(0,0,0,0.15);
+ }
+
+
+#activities {
+    text-decoration: none;
+    page-break-before: always;
+    page-break-after: always;
+    
+}
+
+.accommodations {
+    
+    page-break-before: always;
+    page-break-after: always;
+    
+}
+
+
+.logo {
+    font: bolder 2em 'Lobster', serif;
+   color: #083D77;
+  text-shadow: 4px 3px 0px #fff, 9px 8px 0px rgba(0,0,0,0.15);
+  
+}
+
+.aw-current-weather-inner > h3 {
+    display: none;
+}
+
+.navbar-default {
+    background-color: #87f6ff;
+    width: 100%;
+
+}
+
+header {
+    background-color: #E8F4F9;
+}
+
+span {
+    font: normal 1.5rem 'Lobster', serif; 
+    text-decoration: none;
+    
+}  
+
+.btn-lg-search {
+    border-style: inset;
+    border: hidden;
+    background-color: #fff;
+    padding: 5px;
+}
+
+
+.carousel-caption {
+    font: bolder 1.8em 'Raleway:500', sans-serif;
+    color: #DA7635;
+    text-align: center;
+    display: inline-flex;
+    align-content: center;
+    align-items: flex-start;
+    flex-flow: row;
+    padding: 0;
+}
+
+
+
+.media {
+    height: 30%;
+    width: 100%
+}
+
+.btn-rounded {
+    background-color: #87f6ff;
+    padding-top: 5px;
+}
+
+
+navbar-default navbar-fixed {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    background-color: #87f6ff;
+
+}
+
+
+.navbar-default .navbar-nav > li > a {
+    color: #108F96;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+      color: #fff;
+}
+
+.navbar-nav {
+    font: bolder 1.4em 'Raleway Sans:500', sans-serif;
+    color: #fff;
+    text-align: right;
+    padding: 5px;
+}
+
+.section-header {
+    font: bolder 2em 'Raleway:500', sans-serif; 
+     color: #fff;
+     align-self: flex-end;
+     text-decoration: none;
+     text-shadow: 1px 1px 0px #fd3e81, 2px 2px 0px rgba(0,0,0,0.15);
+    margin: auto;
+    display: flex;
+   background-color: #fd3e81;
+    align-items: center;
+    justify-content: center;
+    flex-flow: row nowrap;
+    padding: 20px 0 10px 40px;
+    width: 100%;
+    border: solid 5px #fff;
+    border-radius: 30px;
+ }
+
+.popover-content {
+    width: 200px;
+    height: 300px;
+    flex-direction: column;
+    display: inline-flex;
+    align-items: center;
+    align-content: center;
+   
+}
+
+.thumbnail > h3 {
+    font: bolder 1.5em 'Raleway:500', sans-serif;
+    text-align: center;
+    
+}
+
+.navbar-default .navbar-brand {
+   font: bolder 2em 'Lobster', serif; 
+   align-items: center;
+   color: #108F96;
+   text-shadow: 4px 3px 0px #fff, 9px 8px 0px rgba(0,0,0,0.15);
+}
+
+
+.ui-widget.ui-widget-content {
+    font: normal 1em 'Raleway Sans:500', sans-serif;
+}
+
+.ui-datepicker table {
+    font: normal 1em 'Raleway Sans:500', sans-serif;
+    
+}
+
+
+.weather {
+    height: 5%;
+    width: 5%;
+    text-decoration: none;
+    border-color: #fff;
+
+    
+}
+
+.aw-temperature-today {
+    font: normal 1rem 'Raleway:500', sans-serif;
+ 
+}
+
+.btn-lg-search a:hover {
+    background-color: #fff;
+    
+}
+
+
+
+.jumbotron-intro {
+   height: 600px;
+   width: 100%;
+    background-size: cover;
+    background-position: center center;
+    color: #FD3E81;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    background-image: url(../images/canyonresort.jpg);
+    margin: 20px;
+   
+    
+}
+
+
+#dropdownMenu1 {
+    background-color: #F9C741;
+    width: 182px;
+}
+ 
+input {
+    text-align: center;
+    
+}   
+
+select {
+    text-align: center;
+    width: 182px;
+}
+
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+       
+        flex-direction: row;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        background-position: center center;
+        min-width: 100%;
+        width: 500px;
+        max-width: 100%;
+        height: 30%;
+        line-height: 0.5;
+}
+
+.row-carousel {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+
+
+.jumbotron-events {
+    background: url(../images/events.jpeg);
+    background-size: cover;
+    width: 1100px;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+     }
+
+ul.footer-menu {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-content: center;
+    align-items: center;
+    
+ }
+
+ul.footer-menu > li {
+    align-self: flex-start;
+    font: bold 1.1em 'Raleway:500', sans-serif;
+    width: 190px;
+    
+
+}
+
+.btn-primary-modal {
+    align-self: baseline;
+    text-align: center;
+    order: 0;
+    margin: 30px 30px 0 0;
+    background-color: #fd3e81;
+    border-radius: 10px;
+    border: double 2px #fff;
+    width: 600px;
+    height: 50px;
+    color: #fff;
+    font: bolder 1.8rem 'Raleway:500', sans-serif;
+  
+ }
+
+h1.section-header {
+    font: bolder 1.5em 'Raleway:500', sans-serif;
+    border-radius: 50px;
+    width: 1050px;
+    border-left: none;
+    font-style: italic;
+    
+}
+
+
+
+.modal-content {
+    height: 800px;
+    width: 400px;
+    font-family: 'Raleway:500', sans-serif;
+}
+
+.navbar-fixed-bottom {
+    list-style: none;
+    background-image: url(../images/whitesand.jpg);
+    background-size: cover;
+    border-top-style: hidden;
+    color: #108F96;
+     
+  }
+  
+.footer-menu a:hover {
+  color: #F9C741;
+  text-decoration: none;
+}
+
+
+  
+  a {
+       color: #108F96;
+       
+  }
+  
+.footer-menu{
+      font: bolder 1em 'Raleway:600', sans-serif;
+      
+      text-transform: uppercase;
+      flex: 0 0 auto;
+      
+  }
+  
+  
+  
+  .h5 {
+      color: #fff;
+  }
+  
+  .copyright {
+      width: 205px;
+     
+  }
+
+
+.row {
+    display:flex;
+    flex-wrap:wrap;
+}
+
+.menu{
+     background-color: #EDFBFA;
+}
+.menu-header {
+    
+    color:red;
+    text-decoration: underline;
+    font: bolder 1.4em 'Raleway Sans:500', sans-serif;
+    text-align: center;
+    
+}
+
+.popular {
+    color:blue;
+     font: 1em 'Open Sans:600', sans-serif;
+      text-align: center;
+}
+
+.invisible{
+    
+    height:20px;
+}
+
+td, th {
+    width:50%;
+    padding: 15px;
+    text-align: left;
+    font-weight: bold;
+    font-size: medium;
+    border-width: medium
+    }
+
+table {
+    text-align: center;
+}

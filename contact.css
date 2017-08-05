@@ -1,0 +1,62 @@
+html {
+    box-sizing: border-box;
+    height: 100%;
+}
+    
+    body {
+     margin: auto;
+    font-family: 'Raleway:500', sans-serif;
+    margin: auto;
+}
+
+.page-header-contact {
+    font: bolder;
+}
+
+legend {
+        color: #36A0FF;
+        font: bold 2em 'Raleway:500', sans-serif;
+        padding: 10px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        flex-flow: column;
+    }
+
+.form-control {
+    border-color: #36A0FF;
+    align-self: center;
+  }
+    
+    h1 {
+    text-align: center;
+    font: bolder 2.5em 'Raleway:500', sans-serif;
+    padding-top: 25px;
+    }
+.homepage {
+    
+    font: bolder 5em 'Lobster', serif;
+   color: #083D77;
+  text-shadow: 4px 3px 0px #fff, 9px 8px 0px rgba(0,0,0,0.15);
+  
+}
+
+h3 {
+    font-weight: bold;
+    padding: 0;
+    text-align: center;
+  }
+
+.well-sm {
+    background-color: #F4FCFE;
+    border-color: #fff;
+    border-radius: 20px;
+    
+}
+
+.btn-lg-submit {
+    background-color: #4392F1;
+    font: bold;
+    border-color: #fff;
+    border-radius: 8px;
+}
